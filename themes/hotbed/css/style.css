@@ -1,0 +1,72 @@
+body, #header {
+	font-family: "Fira Sans", "Open sans", Helvetica, Arial, sans-serif;
+}
+
+#page, #main-wrapper, .region-primary-menu .menu-item a.is-active, .region-primary-menu .menu-item--active-trail a {
+	background: #f7f7f7;
+}
+
+.layout-main-wrapper {
+	margin: 0 3em;
+}
+
+.site-branding__text {
+	padding-top: 1em;
+	margin-left: 3em;
+}
+
+.region-secondary-menu .menu {
+	float: right;
+}
+
+.region-primary-menu .block-menu .menu {
+	font-size: 1em;
+	margin-left: 3em;
+}
+
+h3 {
+	font-size: 1.75em;
+}
+
+h4 {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0;
+}
+
+span.rocketship-term {
+	background-color: #ffe;
+}
+
+.rocketship-node {
+	border-right-color: #ddd;
+	border-top-color: #ddd;
+	border-bottom-color: #ddd;
+	border-radius: 8px;
+	border-style: solid;
+	margin-bottom: 1em;
+	padding: 8px 12px;
+	background-color: #fff;
+}
+
+.rocketship-column {
+	padding: 1em;
+	width: 100%;
+	background-color: #f1f1f1;
+	min-height: 300px;
+	border-radius: 16px;
+	margin-bottom: 2em;
+}
+
+@media only screen and (min-width: 769px){
+   .rocketship-column {
+      width: 43%;
+   }
+ }
+
+@media only screen and (min-width: 961px){
+   .rocketship-column {
+      width: 28%;
+   }
+ }

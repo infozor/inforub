@@ -1,0 +1,34 @@
+jquery.bgiframe:
+  remote: http://plugins.jquery.com/bgiframe
+  version: 3.0.0
+  js:
+    /libraries/js/jquery.bgiframe.js: {}
+  dependencies:
+    - core/jquery
+
+jquery.hoverIntent:
+  remote: https://github.com/briancherne/jquery-hoverIntent
+  version: r7
+  js:
+    /libraries/js/jquery.hoverIntent.js: {}
+  dependencies:
+    - core/jquery
+
+superfish:
+  remote: http://plugins.jquery.com/superfish/
+  version: 1.7.4
+  js:
+    /libraries/js/superfish.js: {}
+  dependencies:
+    - core/jquery
+    - jquery.bgiframe
+    - jquery.hoverIntent
+
+nice_menus:
+  remote: http://drupal.org/project/nice_menus
+  version: 1.0
+  js:
+    /libraries/js/nice_menus.js: {}
+  dependencies:
+    - core/jquery
+    - superfish

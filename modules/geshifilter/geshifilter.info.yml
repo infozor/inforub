@@ -1,0 +1,14 @@
+name: 'GeSHi Filter'
+description: 'Provides a filter to highlight source code using the GeSHi library (Generic Syntax Highlighter)'
+type: module
+package: 'Filters'
+# core: 8.x
+configure: admin/config/content/formats/geshifilter
+dependencies:
+  - libraries
+
+# Information added by Drupal.org packaging script on 2015-12-24
+version: '8.x-1.0-beta1'
+core: '8.x'
+project: 'geshifilter'
+datestamp: 1450986541
